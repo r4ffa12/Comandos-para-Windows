@@ -22,6 +22,6 @@ Comandos destinados a reparação do Windows
 
  ## COMANDO DE VERIFICAÇÃO DE PARTIÇÃO:
 
- ### chkdsk /f /r
+ #### chkdsk /f /r
 
-#### Confirme com “S” e em seguida “Enter” para agendar uma verificação de disco. Reinicie o equipamento e assim que concluir verifique se ficou de acordo
+##### Confirme com “S” e em seguida “Enter” para agendar uma verificação de disco. Reinicie o equipamento e assim que concluir verifique se ficou de acordo
