@@ -25,3 +25,25 @@ Comandos destinados a reparação do Windows
  #### chkdsk /f /r
 
 ##### Confirme com “S” e em seguida “Enter” para agendar uma verificação de disco. Reinicie o equipamento e assim que concluir verifique se ficou de acordo
+
+
+
+# Comandos para Baixar via winget 
+
+## programas:
+### 7zip
+### Adobe Reader
+### Google Chrome
+### Mozila firefox
+### Java 
+
+winget install --id 7zip.7zip -e --accept-source-agreements --accept-package-agreements
+
+winget install --id Google.Chrome -e --accept-source-agreements --accept-package-agreements
+
+winget install --id Mozilla.Firefox -e --accept-source-agreements --accept-package-agreements
+
+winget install --id Oracle.JavaRuntimeEnvironment -e --accept-source-agreements --accept-package-agreements
+
+winget install --id Adobe.Acrobat.Reader.64-bit -e --accept-source-agreements --accept-package-agreements
+
