@@ -43,6 +43,11 @@ winget install --id Google.Chrome -e --accept-source-agreements --accept-package
 
 winget install --id Mozilla.Firefox -e --accept-source-agreements --accept-package-agreements
 
+winget install --id Oracle.JavaRuntimeEnvironment -e --accept-source-agreements --accept-package-agreements
+
+winget install --id Adobe.Acrobat.Reader.64-bit -e --accept-source-agreements --accept-package-agreements
+
+
 
 
 # Auto complit 
@@ -50,12 +55,11 @@ winget install --id Mozilla.Firefox -e --accept-source-agreements --accept-packa
 ## ....
 
 
+
+
+
 # Tabela Comandos Win + R
 
 ## .....
 
-
-winget install --id Oracle.JavaRuntimeEnvironment -e --accept-source-agreements --accept-package-agreements
-
-winget install --id Adobe.Acrobat.Reader.64-bit -e --accept-source-agreements --accept-package-agreements
 
