@@ -37,11 +37,13 @@ Comandos destinados a reparação do Windows
 ### Mozila firefox
 ### Java 
 ### drive booster 12
+
+
 winget install --id 7zip.7zip -e --accept-source-agreements --accept-package-agreements
 
 winget install --id Google.Chrome -e --accept-source-agreements --accept-package-agreements
-# Definir Chrome como padrão (Windows 10/11) usando export/import de associações
-$xmlPath = "$env:TEMP\defaultassociations.xml"
+
+
 
 winget install --id Mozilla.Firefox -e --accept-source-agreements --accept-package-agreements
 
@@ -54,9 +56,40 @@ winget install --id=IObit.DriverBooster -e
 
 
 
+
+
+
+# Definições 
+
+## Definir Chrome como padrão (Windows 10/11) usando export/import de associações
+$xmlPath = "$env:TEMP\defaultassociations.xml"
+
+## Exportar configurações atuais
+Dism /Online /Export-DefaultAppAssociations:$xmlPath
+
+## Substituir navegador nos protocolos mais comuns
+(Get-Content $xmlPath) -replace 'Microsoft\.Edge', 'Google Chrome' | Set-Content $xmlPath
+
+## Importar de volta
+Dism /Online /Import-DefaultAppAssociations:$xmlPath
+
+## Remover arquivo temporário
+Remove-Item $xmlPath
+
+
+
+
+
+
+
+
 # Auto complit 
 
 ## ....
+
+
+
+
 
 
 
