@@ -36,7 +36,7 @@ Comandos destinados a reparação do Windows
 ### Google Chrome
 ### Mozila firefox
 ### Java 
-
+### drive booster 12
 winget install --id 7zip.7zip -e --accept-source-agreements --accept-package-agreements
 
 winget install --id Google.Chrome -e --accept-source-agreements --accept-package-agreements
@@ -46,6 +46,8 @@ winget install --id Mozilla.Firefox -e --accept-source-agreements --accept-packa
 winget install --id Oracle.JavaRuntimeEnvironment -e --accept-source-agreements --accept-package-agreements
 
 winget install --id Adobe.Acrobat.Reader.64-bit -e --accept-source-agreements --accept-package-agreements
+
+winget install --id=IObit.DriverBooster -e
 
 
 
