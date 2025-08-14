@@ -40,6 +40,8 @@ Comandos destinados a reparação do Windows
 winget install --id 7zip.7zip -e --accept-source-agreements --accept-package-agreements
 
 winget install --id Google.Chrome -e --accept-source-agreements --accept-package-agreements
+# Definir Chrome como padrão (Windows 10/11) usando export/import de associações
+$xmlPath = "$env:TEMP\defaultassociations.xml"
 
 winget install --id Mozilla.Firefox -e --accept-source-agreements --accept-package-agreements
 
