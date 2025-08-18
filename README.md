@@ -38,7 +38,6 @@ Comandos destinados a reparação do Windows
 
 ## programas:
 ### 7zip
-### Adobe Reader
 ### Google Chrome
 ### Mozila firefox
 ### Java 
@@ -51,7 +50,6 @@ winget install --id Mozilla.Firefox -e --accept-source-agreements --accept-packa
 
 winget install --id Oracle.JavaRuntimeEnvironment -e --accept-source-agreements --accept-package-agreements
 
-winget install --id Adobe.Acrobat.Reader.64-bit -e --accept-source-agreements --accept-package-agreements
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
