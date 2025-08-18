@@ -55,9 +55,6 @@ winget install --id Oracle.JavaRuntimeEnvironment -e --accept-source-agreements 
 
 winget install --id Adobe.Acrobat.Reader.64-bit -e --accept-source-agreements --accept-package-agreements
 
-winget install --id=IObit.DriverBooster -e
-
-winget install AnyDesk.AnyDesk
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------
