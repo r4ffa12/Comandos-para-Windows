@@ -42,8 +42,6 @@ Comandos destinados a reparação do Windows
 ### Google Chrome
 ### Mozila firefox
 ### Java 
-### drive booster 12
-### Anydesk
 
 winget install --id 7zip.7zip -e --accept-source-agreements --accept-package-agreements
 
