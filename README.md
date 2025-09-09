@@ -106,7 +106,7 @@ Remove-Item $xmlPath
 ----------------------------------------------------------------------------------------------------------------------------------------
 # Tabela Comandos Win + R
 
-🔧 Ferramentas de Administração
+## 🔧 Ferramentas de Administração
 
 compmgmt.msc → Gerenciamento do computador
 
@@ -122,7 +122,7 @@ msconfig → Configuração do Sistema
 
 regedit → Editor de Registro
 
-🌐 Rede e Conectividade
+## 🌐 Rede e Conectividade
 
 ncpa.cpl → Conexões de Rede
 
@@ -136,7 +136,7 @@ control netconnections → Acessar adaptadores de rede
 
 firewall.cpl → Configurações do Firewall
 
-🖥️ Sistema e Diagnóstico
+## 🖥️ Sistema e Diagnóstico
 
 dxdiag → Diagnóstico do DirectX (info de hardware e drivers)
 
@@ -152,7 +152,7 @@ sysdm.cpl → Propriedades do Sistema
 
 winver → Versão do Windows
 
-⚙️ Configurações Rápidas
+## ⚙️ Configurações Rápidas
 
 control → Painel de Controle
 
@@ -168,7 +168,7 @@ desk.cpl → Configurações de Vídeo/Resolução de Tela
 
 mmsys.cpl → Configurações de Som
 
-📂 Acesso rápido
+## 📂 Acesso rápido
 
 . → Abre a pasta do usuário atual
 
