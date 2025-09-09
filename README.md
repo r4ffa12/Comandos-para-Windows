@@ -106,5 +106,80 @@ Remove-Item $xmlPath
 ----------------------------------------------------------------------------------------------------------------------------------------
 # Tabela Comandos Win + R
 
+🔧 Ferramentas de Administração
+
+compmgmt.msc → Gerenciamento do computador
+
+services.msc → Serviços do Windows
+
+eventvwr.msc → Visualizador de Eventos
+
+devmgmt.msc → Gerenciador de Dispositivos
+
+taskschd.msc → Agendador de Tarefas
+
+msconfig → Configuração do Sistema
+
+regedit → Editor de Registro
+
+🌐 Rede e Conectividade
+
+ncpa.cpl → Conexões de Rede
+
+cmd → Prompt de Comando
+
+powershell → PowerShell
+
+mstsc → Conexão de Área de Trabalho Remota
+
+control netconnections → Acessar adaptadores de rede
+
+firewall.cpl → Configurações do Firewall
+
+🖥️ Sistema e Diagnóstico
+
+dxdiag → Diagnóstico do DirectX (info de hardware e drivers)
+
+perfmon → Monitor de Desempenho
+
+resmon → Monitor de Recursos
+
+taskmgr → Gerenciador de Tarefas
+
+cleanmgr → Limpeza de Disco
+
+sysdm.cpl → Propriedades do Sistema
+
+winver → Versão do Windows
+
+⚙️ Configurações Rápidas
+
+control → Painel de Controle
+
+appwiz.cpl → Programas e Recursos (desinstalar programas)
+
+intl.cpl → Idioma e Região
+
+timedate.cpl → Data e Hora
+
+powercfg.cpl → Opções de Energia
+
+desk.cpl → Configurações de Vídeo/Resolução de Tela
+
+mmsys.cpl → Configurações de Som
+
+📂 Acesso rápido
+
+. → Abre a pasta do usuário atual
+
+.. → Abre a pasta C:\Users
+
+%temp% → Pasta de arquivos temporários do usuário
+
+temp → Pasta de temporários do sistema
+
+shell:startup → Pasta de inicialização do Windows
+
+
 ## 
 
