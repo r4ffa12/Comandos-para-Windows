@@ -122,6 +122,7 @@ msconfig → Configuração do Sistema
 
 regedit → Editor de Registro
 
+
 ## 🌐 Rede e Conectividade
 
 ncpa.cpl → Conexões de Rede
@@ -135,6 +136,9 @@ mstsc → Conexão de Área de Trabalho Remota
 control netconnections → Acessar adaptadores de rede
 
 firewall.cpl → Configurações do Firewall
+
+control printers → Abre impressora e dispositivos
+
 
 ## 🖥️ Sistema e Diagnóstico
 
@@ -152,6 +156,7 @@ sysdm.cpl → Propriedades do Sistema
 
 winver → Versão do Windows
 
+
 ## ⚙️ Configurações Rápidas
 
 control → Painel de Controle
@@ -167,6 +172,7 @@ powercfg.cpl → Opções de Energia
 desk.cpl → Configurações de Vídeo/Resolução de Tela
 
 mmsys.cpl → Configurações de Som
+
 
 ## 📂 Acesso rápido
 
